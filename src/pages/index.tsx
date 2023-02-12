@@ -12,19 +12,17 @@ import SearchInput from "components/SearchInput";
 
 export default function Home() {
   return (
-    <div className="bg-slate-100 h-full min-w-[408px]">
+    <div className="bg-slate-100 h-full  w-full">
       <div className="flex gap-8 p-4 flex-col bg-slate-100 w-full h-full">
-        
+
         <Overview/>
-       <PriceInput2/>
-       <SearchInput/>
-       <MessageDropdown/>  
-       <PopularProduct/>     
-       
-     
-           
+        <PopularProduct/>   
+        <SearchInput/>
+        <MessageDropdown/>  
 
       </div>
+
+   
       </div>
   )
 }
