@@ -6,7 +6,7 @@ const PopularProduct = ()=> {
             <div className=" bg-white flex items-center px-4 py-4 shadow-sm rounded-xl w-full gap-4 sm:w-96 justify-between">
             <div className='flex items-center gap-4'>
                 <Image src={ProfileImage} width={100} height={100} alt='Profile' />
-                <h3 className=" text-base font-medium">Crypter - NFT UI kit</h3>
+                <h3 className=" text-base font-medium">Boné New Era</h3>
             </div>
             
             <div className='flex flex-col gap-2'>
