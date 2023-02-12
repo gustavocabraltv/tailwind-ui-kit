@@ -16,8 +16,7 @@ import { EnvelopeIcon } from '@heroicons/react/24/outline'
 */
 import SearchInputSVG from '../src/assets/search.svg'
 import Image from 'next/image'
-
-export default function EmailInput() {
+ function EmailInput() {
     return (
       <div>
         <label htmlFor="price" className=" block text-sm font-medium text-gray-700 ">
@@ -39,3 +38,4 @@ export default function EmailInput() {
     )
   }
   
+  export default EmailInput;
