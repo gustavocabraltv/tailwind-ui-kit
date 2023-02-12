@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Google from '../src/assets/google.svg'
 import Apple from '../src/assets/apple.svg'
 import SearchInput from "./SearchInput";
-import EmailInput from "./emailInput";
+import EmailInput from "./InputEmail";
 
 
 const SignIn = () => {

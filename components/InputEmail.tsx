@@ -1,22 +1,8 @@
 
 import { EnvelopeIcon } from '@heroicons/react/24/outline'
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
-import SearchInputSVG from '../src/assets/search.svg'
-import Image from 'next/image'
- function EmailInput() {
+
+
+ export default function InputEmail() {
     return (
       <div>
         <label htmlFor="price" className=" block text-sm font-medium text-gray-700 ">
@@ -38,4 +24,3 @@ import Image from 'next/image'
     )
   }
   
-  export default EmailInput;
