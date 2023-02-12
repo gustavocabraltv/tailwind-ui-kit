@@ -20,7 +20,7 @@ export default function SearchInput() {
     return (
       <div>
         <label htmlFor="price" className=" block text-sm font-medium text-gray-700">
-          Insira o valor aqui:
+          Buscar produtos:
         </label>
         <div className="relative mt-1 rounded-md shadow-sm w-full md:max-w-sm">
           <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
